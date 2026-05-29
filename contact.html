@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Ahmad Adib Fharqhan - Get in touch for collaborations">
+  <meta name="keywords" content="contact, email, form, hire">
+  <meta name="author" content="Ahmad Adib Fharqhan">
+  <title>Portfolio — Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">A<span>AF.</span></a>
+      <input type="checkbox" id="menuToggleCheck" class="menu-checkbox" hidden>
+      <label for="menuToggleCheck" class="menu-toggle">
+        <span></span><span></span><span></span>
+      </label>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="aboutme.html">Student Info</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="site-header" id="top">
+    <img src="src/ContactBanner.png" alt="Contact Page Header Banner">
+  </header>
+
+  <main class="page">
+    <div class="container">
+
+      <section>
+        <p class="section-label">Contact</p>
+        <h1 class="section-title">Let's work together.</h1>
+      </section>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p>Have a project in mind or just want to say hello? I'm always open to discussing new opportunities and ideas. Reach out through any of the channels below.</p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-method-icon">✉</div>
+              <div>
+                <p class="contact-method-label">Email</p>
+                <p class="contact-method-value">2025324963@uitm.edu.my</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="contact-method-icon">☎</div>
+              <div>
+                <p class="contact-method-label">Phone</p>
+                <p class="contact-method-value">+6017-5646160</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="contact-method-icon">◉</div>
+              <div>
+                <p class="contact-method-label">Location</p>
+                <p class="contact-method-value">Petaling Jaya, Malaysia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <!-- Tukar email di bawah kepada email sebenar anda -->
+          <form action="mailto:2025324963@isiswa.uitm.edu.my" method="POST" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="Subject" placeholder="What's this about?">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="Message" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message →</button>
+              
+
+              <a href="https://wa.me/60175646160?text=Hello%20from%20your%20portfolio!" target="_blank" class="btn btn-secondary" style="width: 100%; justify-content: center; margin-top: 12px;">
+                Chat via WhatsApp 💬
+              </a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 40px; text-align: center;">
+        <a href="#top" class="btn btn-secondary">↑ Back to Top</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© UiTM ID 2025324963 - Ahmad Adib. All rights reserved.</p>
+      <p class="footer-copy">Recommended Browser: Google Chrome / Mozilla Firefox | Resolution: 1920x1080</p>
+      <p class="footer-copy">Last Updated: 25 May 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
